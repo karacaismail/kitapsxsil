@@ -245,6 +245,18 @@
         "belgede-anilan",
         "korunan"
       ],
+      "cover": {
+        "src": "covers/87233dbfa7a390b9.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/rekabet-stratejisi-132392-272511-13-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/rekabet-stratejisi-132392",
+        "sourceName": "Kitapsepeti",
+        "title": "Rekabet Stratejisi",
+        "author": "Michael E. Porter",
+        "publisher": "Aura Kitapları",
+        "isbn": "9786051032887",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time",
         "pmba",
@@ -298,6 +310,18 @@
       ],
       "legacyKeys": [],
       "tags": [],
+      "cover": {
+        "src": "covers/3c13cf7735de2a2e.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/duygusal-zeka-270004-223425-27-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/duygusal-zeka-270004",
+        "sourceName": "Kitapsepeti",
+        "title": "Duygusal Zeka",
+        "author": "Daniel Goleman",
+        "publisher": "Varlık Yayınları",
+        "isbn": "9789754341966",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time",
         "hundred"
@@ -444,6 +468,18 @@
       ],
       "legacyKeys": [],
       "tags": [],
+      "cover": {
+        "src": "covers/b2aab8de038d4986.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/besinci-disiplin-313328-12-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/besinci-disiplin",
+        "sourceName": "Kitapsepeti",
+        "title": "Beşinci Disiplin",
+        "author": "Peter M. Senge",
+        "publisher": "Yapı Kredi Yayınları",
+        "isbn": "9789753630313",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time"
       ],
@@ -594,6 +630,18 @@
         "korunan",
         "okunuyor"
       ],
+      "cover": {
+        "src": "covers/0304523efff53f24.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/amac-961220-25-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/amac",
+        "sourceName": "Kitapsepeti",
+        "title": "Amaç",
+        "author": "Eliyahu M. Goldratt",
+        "publisher": "Optimist Kitap",
+        "isbn": "9786052261057",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time",
         "pmba",
@@ -791,6 +839,18 @@
       ],
       "legacyKeys": [],
       "tags": [],
+      "cover": {
+        "src": "covers/42fa798c95242390.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/dost-kazanma-ve-insanlari-etkileme-sanati-582870-1048831-58-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/dost-kazanma-ve-insanlari-etkileme-sanati-582870",
+        "sourceName": "Kitapsepeti",
+        "title": "Dost Kazanma ve İnsanları Etkileme Sanatı",
+        "author": "Dale Carnegie",
+        "publisher": "SAGA Kitap",
+        "isbn": "9786258533361",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time",
         "pmba",
@@ -947,6 +1007,19 @@
         "belgede-anilan",
         "korunan"
       ],
+      "cover": {
+        "src": "covers/467e0905930fcef0.png",
+        "imageUrl": "https://dostkitabevi.com/images/thumbs/0276463_yenilikcinin-ikilemi_550.png",
+        "sourceUrl": "https://dostkitabevi.com/yenilikcinin-ikilemi",
+        "sourceName": "Dost Kitabevi",
+        "title": "Yenilikçinin İkilemi",
+        "author": "Clayton M. Christensen",
+        "publisher": "Koridor Yayıncılık",
+        "isbn": "9786059702812",
+        "language": "tr",
+        "checkedAt": "2026-09-28",
+        "matchMethod": "manual-source-review"
+      },
       "collectionIds": [
         "time",
         "hundred",
@@ -1298,6 +1371,18 @@
       ],
       "legacyKeys": [],
       "tags": [],
+      "cover": {
+        "src": "covers/ded1e43f912d2ff8.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/etkili-insanlarin-7-aliskanligi-202156-26-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/etkili-insanlarin-7-aliskanligi",
+        "sourceName": "Kitapsepeti",
+        "title": "Etkili İnsanların 7 Alışkanlığı",
+        "author": "Stephen R. Covey",
+        "publisher": "Varlık Yayınları",
+        "isbn": "9789754346534",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "hundred",
         "time"
@@ -1422,6 +1507,18 @@
         "toyota-production-system-taiichi-ohno"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/109ad6de29fbdd1a.png",
+        "imageUrl": "https://asset.kitapsepeti.com/toyota-ruhu-887848-34-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/toyota-ruhu",
+        "sourceName": "Kitapsepeti",
+        "title": "Toyota Ruhu",
+        "author": "Taiichi Ohno",
+        "publisher": "Scala Yayıncılık",
+        "isbn": "9786059248266",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time",
         "hundred",
@@ -1471,6 +1568,18 @@
       "tags": [
         "belgede-anilan"
       ],
+      "cover": {
+        "src": "covers/02d65cc4c3bff016.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/peynirimi-kim-kapti-254069-1049304-25-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/peynirimi-kim-kapti-254069",
+        "sourceName": "Kitapsepeti",
+        "title": "Peynirimi Kim Kaptı?",
+        "author": "Spencer Johnson",
+        "publisher": "Epsilon Yayınevi",
+        "isbn": "9789753311908",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "time"
       ],
@@ -1558,6 +1667,18 @@
       "tags": [
         "kaynaktan"
       ],
+      "cover": {
+        "src": "covers/322f5779d8ba903c.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/yalin-startup-544727-37-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/yalin-startup",
+        "sourceName": "Kitapsepeti",
+        "title": "Yalın Startup",
+        "author": "Eric Ries",
+        "publisher": "MediaCat Kitapları",
+        "isbn": "9786052314708",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "pmba",
         "five",
@@ -2439,6 +2560,18 @@
         "thinking-fast-and-slow-daniel-kahneman"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/af3c82c7845287c6.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/hizli-ve-yavas-dusunme-271594-27-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/hizli-ve-yavas-dusunme",
+        "sourceName": "Kitapsepeti",
+        "title": "Hızlı ve Yavaş Düşünme",
+        "author": "Daniel Kahneman",
+        "publisher": "Varlık Yayınları",
+        "isbn": "9789754345315",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "pmba",
         "hundred",
@@ -3209,6 +3342,19 @@
       "tags": [
         "kaynaktan"
       ],
+      "cover": {
+        "src": "covers/d1f20965d31f1daf.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/iste-bu-fikir-tutar-240910-21-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/iste-bu-fikir-tutar",
+        "sourceName": "Kitapsepeti",
+        "title": "İşte Bu Fikir Tutar!",
+        "author": "Chip Heath",
+        "publisher": "Sola Unitas",
+        "isbn": "9786052250716",
+        "language": "tr",
+        "checkedAt": "2026-09-28",
+        "matchMethod": "manual-source-review"
+      },
       "collectionIds": [
         "pmba",
         "five",
@@ -3357,6 +3503,18 @@
         "influence-the-psychology-of-persuasion-robert-b-cialdini"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/22fefa8cf4bda918.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/iknanin-psikolojisi-825535-21-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/iknanin-psikolojisi",
+        "sourceName": "Kitapsepeti",
+        "title": "İknanın Psikolojisi",
+        "author": "Robert B. Cialdini",
+        "publisher": "MediaCat Kitapları",
+        "isbn": "9789944383646",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "pmba",
         "hundred",
@@ -3990,6 +4148,19 @@
         "eklenen",
         "yakin-vade"
       ],
+      "cover": {
+        "src": "covers/bf966779f015032e.jpg",
+        "imageUrl": "https://pegem.net/uploads/p/p/Sistemlerle-Dusunmek_1.jpg",
+        "sourceUrl": "https://pegem.net/urun/Sistemlerle-Dusunmek/67979",
+        "sourceName": "Pegem Akademi",
+        "title": "Sistemlerle Düşünmek",
+        "author": "Donella H. Meadows",
+        "publisher": "Pegem Akademi",
+        "isbn": "9786257582353",
+        "language": "tr",
+        "checkedAt": "2026-09-28",
+        "matchMethod": "manual-source-review"
+      },
       "collectionIds": [
         "pmba",
         "core",
@@ -4294,6 +4465,18 @@
         "belgede-anilan",
         "eklenen"
       ],
+      "cover": {
+        "src": "covers/404f9ee4e6af7cb3.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/etkin-yonetici-dogru-olani-basarmak-icin-bir-rehber-204621-23-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/etkin-yonetici-dogru-olani-basarmak-icin-bir-rehber",
+        "sourceName": "Kitapsepeti",
+        "title": "Etkin Yönetici: Doğru Olanı Başarmak için Bir Rehber",
+        "author": "Peter F. Drucker",
+        "publisher": "Stabil Kitap",
+        "isbn": "9786057081179",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "pmba",
         "hundred",
@@ -4486,6 +4669,19 @@
         "blue-ocean-strategy-w-chan-kim-renee-mauborgne"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/def1ef7608cac84f.jpg",
+        "imageUrl": "https://www.tdk.com.tr/images_buyuk/f71/mavi-okyanus-stratejisi_68771_1.jpg",
+        "sourceUrl": "https://www.tdk.com.tr/mavi-okyanus-stratejisi_68771.html",
+        "sourceName": "TDK Bilim",
+        "title": "Mavi Okyanus Stratejisi",
+        "author": "W. Chan Kim, Renée Mauborgne",
+        "publisher": "CSA Yayın Ajansı",
+        "isbn": "9789758828203",
+        "language": "tr",
+        "checkedAt": "2026-09-28",
+        "matchMethod": "manual-source-review"
+      },
       "collectionIds": [
         "pmba",
         "mit",
@@ -6782,6 +6978,18 @@
       "tags": [
         "belgede-anilan"
       ],
+      "cover": {
+        "src": "covers/911a802c384d6adb.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/buyuk-isler-nasil-basarilir-982085-53-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/buyuk-isler-nasil-basarilir",
+        "sourceName": "Kitapsepeti",
+        "title": "Büyük İşler Nasıl Başarılır",
+        "author": "Bent Flyvbjerg",
+        "publisher": "Mona Kitap",
+        "isbn": "9786255688026",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "ft"
       ],
@@ -13177,6 +13385,19 @@
         "eklenen",
         "yakin-vade"
       ],
+      "cover": {
+        "src": "covers/4d7fb98ef322f7f4.jpg",
+        "imageUrl": "https://www.nobelyayin.com/images/urunler/default/nobelyayin_com_15818.jpg",
+        "sourceUrl": "https://www.nobelyayin.com/kitap_15818.html",
+        "sourceName": "Nobel Yayın",
+        "title": "İyi Strateji / Kötü Strateji",
+        "author": "Richard P. Rumelt",
+        "publisher": "Nobel Yaşam",
+        "isbn": "9786059746946",
+        "language": "tr",
+        "checkedAt": "2026-09-28",
+        "matchMethod": "manual-source-review"
+      },
       "collectionIds": [
         "ft",
         "core",
@@ -14957,6 +15178,18 @@
         "nudge-richard-h-thaler-cass-r-sunstein"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/88884f55ac1e09ac.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/durtme-372992-33-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/durtme",
+        "sourceName": "Kitapsepeti",
+        "title": "Dürtme",
+        "author": "Cass R. Sunstein",
+        "publisher": "Pegasus Yayınları",
+        "isbn": "9786053430421",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "ft",
         "kitaps-C"
@@ -18611,6 +18844,18 @@
         "the-five-dysfunctions-of-a-team-patrick-lencioni"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/ddb7bfe49eaea3c3.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/ekiplerin-bes-temel-aksakligi-442830-834023-44-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/ekiplerin-bes-temel-aksakligi-442830",
+        "sourceName": "Kitapsepeti",
+        "title": "Ekiplerin Beş Temel Aksaklığı",
+        "author": "Patrick Lencioni",
+        "publisher": "Optimist Kitap",
+        "isbn": "9786254340710",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "hundred",
         "kitaps-N"
@@ -20655,6 +20900,18 @@
         "sunzi-bingfa-sun-tzu-sun-zi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/4edcc84ce1cbead4.png",
+        "imageUrl": "https://asset.kitapsepeti.com/savas-sanati-573605-1025694-57-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/savas-sanati-573605",
+        "sourceName": "Kitapsepeti",
+        "title": "Savaş Sanatı",
+        "author": "Sun Tzu",
+        "publisher": "Güneş Kitabevleri Yayınları",
+        "isbn": "9786258967043",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A"
       ],
@@ -20723,6 +20980,18 @@
         "il-principe-niccolo-machiavelli"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/d59ed6d2d0d5d285.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/prens-455486-875943-45-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/prens-455486",
+        "sourceName": "Kitapsepeti",
+        "title": "Prens",
+        "author": "Niccolo Machiavelli",
+        "publisher": "Koridor Yayıncılık",
+        "isbn": "9786256353336",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A"
       ],
@@ -20792,6 +21061,18 @@
         "vom-kriege-carl-von-clausewitz"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/c99a6d280b419109.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/savas-uzerine-470927-1049317-47-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/savas-uzerine-470927",
+        "sourceName": "Kitapsepeti",
+        "title": "Savaş Üzerine",
+        "author": "Carl Von Clausewitz",
+        "publisher": "Alfa Yayınları",
+        "isbn": "9786254499937",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A",
         "kitaps-M"
@@ -20977,6 +21258,18 @@
         "the-book-of-five-rings-harris-cevirisi-miyamoto-musashi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/9715f85385612dc4.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/bes-cember-kitabi-459716-1057891-45-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/bes-cember-kitabi-459716",
+        "sourceName": "Kitapsepeti",
+        "title": "Beş Çember Kitabı",
+        "author": "Miyamoto Musashi",
+        "publisher": "Altıkırkbeş Yayınları",
+        "isbn": "9786259890166",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A",
         "kitaps-K",
@@ -21050,6 +21343,18 @@
         "hagakure-yamamoto-tsunetomo"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/302feec49714a5f8.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/hagakure-sakli-yapraklar-558158-23-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/hagakure-sakli-yapraklar",
+        "sourceName": "Kitapsepeti",
+        "title": "Hagakure: Saklı Yapraklar",
+        "author": "Yamamoto Tsunetomo",
+        "publisher": "İthaki Yayınları",
+        "isbn": "9786258475937",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A",
         "kitaps-N"
@@ -21116,6 +21421,18 @@
         "arthasastra-kautilya"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/8f2f0c64af8193f0.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/arthasastra-397506-29-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/arthasastra",
+        "sourceName": "Kitapsepeti",
+        "title": "Arthaşastra",
+        "author": "Kautilya",
+        "publisher": "Kırmızı Kedi Yayınevi",
+        "isbn": "9786052982365",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A"
       ],
@@ -21252,6 +21569,18 @@
         "the-33-strategies-of-war-robert-greene-joost-elffers-ile"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/fd5514e9f5d39e2a.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/33-stratejide-savas-829518-11-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/33-stratejide-savas",
+        "sourceName": "Kitapsepeti",
+        "title": "33 Stratejide Savaş",
+        "author": "Joost Elffers",
+        "publisher": "Altın Kitaplar",
+        "isbn": "9789752109148",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-A"
       ],
@@ -21315,6 +21644,18 @@
         "peloponnesos-savasi-tarihi-thukydides"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/2f2c3a93c175509b.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/peloponnesos-savaslari-835400-82-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/peloponnesos-savaslari",
+        "sourceName": "Kitapsepeti",
+        "title": "Peloponnesos Savaşları",
+        "author": "Thukydides",
+        "publisher": "Belge Yayınları",
+        "isbn": "9789753440530",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-B"
       ],
@@ -21384,6 +21725,18 @@
         "mukaddime-ibn-haldun"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/f4b8c14d46c9afd3.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/mukaddime-576102-1028801-57-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/mukaddime-576102",
+        "sourceName": "Kitapsepeti",
+        "title": "Mukaddime",
+        "author": "İbn Haldun",
+        "publisher": "Hatem`ül Enbiya Yayıncılık",
+        "isbn": "9786258988574",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-B"
       ],
@@ -21817,6 +22170,18 @@
         "psychologie-des-foules-gustave-le-bon"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/5d89552211cb92b5.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/kitleler-psikolojisi-572725-1024686-57-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/kitleler-psikolojisi-572725",
+        "sourceName": "Kitapsepeti",
+        "title": "Kitleler Psikolojisi",
+        "author": "Gustave le Bon",
+        "publisher": "Kanes Yayınları",
+        "isbn": "9786258346206",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-C"
       ],
@@ -21943,6 +22308,18 @@
         "the-presentation-of-self-in-everyday-life-erving-goffman"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/a798326025bd3539.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/gunluk-yasamda-benligin-sunumu-228233-21-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/gunluk-yasamda-benligin-sunumu",
+        "sourceName": "Kitapsepeti",
+        "title": "Günlük Yaşamda Benliğin Sunumu",
+        "author": "Erving Goffman",
+        "publisher": "Metis Yayınları",
+        "isbn": "9789753426985",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-C"
       ],
@@ -22010,6 +22387,18 @@
         "the-power-of-positive-thinking-1952-norman-vincent-peale"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/87c2e47c091730cf.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/olumlu-dusunmenin-gucu-485971-911252-48-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/olumlu-dusunmenin-gucu-485971",
+        "sourceName": "Kitapsepeti",
+        "title": "Olumlu Düşünmenin Gücü",
+        "author": "Norman Vincent Peale",
+        "publisher": "Profil Kitap",
+        "isbn": "9786256036277",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-C"
       ],
@@ -22073,6 +22462,18 @@
         "scrum-the-art-of-doing-twice-the-work-in-half-the-time-jeff-"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/dec438be203f12cc.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/scrum-iki-kati-isi-yari-zamanda-yapma-sanati-277020-10-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/scrum-iki-kati-isi-yari-zamanda-yapma-sanati",
+        "sourceName": "Kitapsepeti",
+        "title": "Scrum - İki Katı İşi Yarı Zamanda Yapma Sanatı",
+        "author": "Jeff Sutherland",
+        "publisher": "Buzdağı Yayınevi",
+        "isbn": "9786058487475",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-D"
       ],
@@ -22317,6 +22718,18 @@
         "samatali-koyun-cocuklari-e2-astrid-lindgren"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/0f32b4ee922b2767.png",
+        "imageUrl": "https://asset.kitapsepeti.com/samatali-koy-334187-949543-33-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/samatali-koy-334187",
+        "sourceName": "Kitapsepeti",
+        "title": "Şamatalı Köy",
+        "author": "Astrid Lindgren",
+        "publisher": "Pegasus Çocuk Yayınları",
+        "isbn": "9786053439738",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-E",
         "kitaps-P"
@@ -22379,6 +22792,18 @@
         "abartma-tozu-sermin-yasar"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/01d1415280a0255b.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/abartma-tozu-588809-1057529-58-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/abartma-tozu-588809",
+        "sourceName": "Kitapsepeti",
+        "title": "Abartma Tozu",
+        "author": "Şermin Yaşar",
+        "publisher": "Taze Kitap",
+        "isbn": "9786259286785",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-E"
       ],
@@ -22472,6 +22897,18 @@
         "despero-nun-oykusu-e4-kate-dicamillo"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/ee1433ae5e20732f.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/desperonun-oykusu-560299-1009069-56-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/desperonun-oykusu-560299",
+        "sourceName": "Kitapsepeti",
+        "title": "Despero’nun Öyküsü",
+        "author": "Kate DiCamillo",
+        "publisher": "Tudem Yayınları",
+        "isbn": "9786253800772",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-E",
         "kitaps-P"
@@ -22536,6 +22973,18 @@
         "konrad-oder-das-kind-aus-der-konservenbuchse-christine-nostl"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/4dfcb43ad31500ea.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/konrad-ya-da-konserve-kutusundan-cikan-cocuk-398078-28-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/konrad-ya-da-konserve-kutusundan-cikan-cocuk",
+        "sourceName": "Kitapsepeti",
+        "title": "Konrad ya da Konserve Kutusundan Çıkan Çocuk",
+        "author": "Christine Nöstlinger",
+        "publisher": "Günışığı Kitaplığı",
+        "isbn": "9789758142859",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-E"
       ],
@@ -22628,6 +23077,18 @@
         "yilankale-e6-miyase-sertbarut"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/b1df9b62c4c4020f.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/yilankale-260060-21-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/yilankale",
+        "sourceName": "Kitapsepeti",
+        "title": "Yılankale",
+        "author": "Miyase Sertbarut",
+        "publisher": "Tudem Yayınları",
+        "isbn": "9789944694469",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-E",
         "kitaps-P"
@@ -22750,6 +23211,18 @@
         "v-lyudyah-maksim-gorki"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/24a7a0caf56ffd1f.png",
+        "imageUrl": "https://asset.kitapsepeti.com/ekmegimi-kazanirken-98443-204111-98-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/ekmegimi-kazanirken-98443",
+        "sourceName": "Kitapsepeti",
+        "title": "Ekmeğimi Kazanırken",
+        "author": "Maksim Gorki",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786053325482",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -22817,6 +23290,18 @@
         "the-prophet-halil-cibran-kahlil-gibran"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/57c4991869b96345.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/ermis-579129-1042561-57-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/ermis-579129",
+        "sourceName": "Kitapsepeti",
+        "title": "Ermiş",
+        "author": "Halil Cibran",
+        "publisher": "Hatem`ül Enbiya Yayıncılık",
+        "isbn": "9786258988734",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -22878,6 +23363,18 @@
         "suyu-arayan-adam-sevket-sureyya-aydemir"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/996d3ea97fe14665.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/suyu-arayan-adam-915757-27-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/suyu-arayan-adam",
+        "sourceName": "Kitapsepeti",
+        "title": "Suyu Arayan Adam",
+        "author": "Şevket Süreyya Aydemir",
+        "publisher": "Remzi Kitabevi",
+        "isbn": "9789751421111",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -23006,6 +23503,18 @@
         "brave-new-world-aldous-huxley"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/8986e0e0e2c4c560.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/cesur-yeni-dunya-217471-38-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/cesur-yeni-dunya",
+        "sourceName": "Kitapsepeti",
+        "title": "Cesur Yeni Dünya",
+        "author": "Aldous Huxley",
+        "publisher": "İthaki Yayınları",
+        "isbn": "9789756902165",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -23068,6 +23577,18 @@
         "the-time-machine-h-g-wells"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/0a4bb7387e06ddae.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/zaman-makinesi-216904-934665-21-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/zaman-makinesi-216904",
+        "sourceName": "Kitapsepeti",
+        "title": "Zaman Makinesi",
+        "author": "H. G. Wells",
+        "publisher": "İthaki Yayınları",
+        "isbn": "9786053754268",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -23130,6 +23651,18 @@
         "les-origines-de-l-empire-ottoman-mehmet-fuad-koprulu"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/c2fe6b6ac0544166.webp",
+        "imageUrl": "https://asset.kitapsepeti.com/osmanli-imparatorlugunun-kurulusu-102339-322386-10-O.webp",
+        "sourceUrl": "https://www.kitapsepeti.com/osmanli-imparatorlugunun-kurulusu-102339",
+        "sourceName": "Kitapsepeti",
+        "title": "Osmanlı İmparatorluğunun Kuruluşu",
+        "author": "Mehmet Fuad Köprülü",
+        "publisher": "Alfa Yayınları",
+        "isbn": "9786051711881",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -23191,6 +23724,18 @@
         "turk-mitolojisi-atlasi-bartu-bolukbasi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/6a4850df9eb79582.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/turk-mitolojisi-atlasi-1046373-58-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/turk-mitolojisi-atlasi",
+        "sourceName": "Kitapsepeti",
+        "title": "Türk Mitolojisi Atlası",
+        "author": "Bartu Bölükbaşı",
+        "publisher": "Presstij Kitap",
+        "isbn": "9786257543699",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -23251,6 +23796,18 @@
         "agir-roman-metin-kacan"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/f32ca485876be0dd.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/agir-roman-1056651-11-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/agir-roman",
+        "sourceName": "Kitapsepeti",
+        "title": "Ağır Roman",
+        "author": "Metin Kaçan",
+        "publisher": "Everest Yayınları",
+        "isbn": "9786051414898",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F"
       ],
@@ -23354,6 +23911,18 @@
         "the-ballad-of-reading-gaol-oscar-wilde"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/6faf9e3eb14aa77a.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/reading-zindani-baladi-380551-927263-38-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/reading-zindani-baladi-380551",
+        "sourceName": "Kitapsepeti",
+        "title": "Reading Zindanı Baladı",
+        "author": "Oscar Wilde",
+        "publisher": "Can Yayınları",
+        "isbn": "9789750758638",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-F",
         "kitaps-I"
@@ -23422,6 +23991,18 @@
         "fyodor-mihaylovic-dostoyevski"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/562ed661fec54911.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/suc-ve-ceza-579636-1043066-57-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/suc-ve-ceza-579636",
+        "sourceName": "Kitapsepeti",
+        "title": "Suç ve Ceza",
+        "author": "Fyodor Mihayloviç Dostoyevski",
+        "publisher": "Güneş Kitabevleri Yayınları",
+        "isbn": "9786258967760",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23488,6 +24069,18 @@
         "fyodor-mihaylovic-dostoyevski-2"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/2ed865ee269b851e.png",
+        "imageUrl": "https://asset.kitapsepeti.com/karamazov-kardesler-36462-185595-36-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/karamazov-kardesler-36462",
+        "sourceName": "Kitapsepeti",
+        "title": "Karamazov Kardeşler",
+        "author": "Fyodor Mihayloviç Dostoyevski",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9789944880985",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23554,6 +24147,18 @@
         "fyodor-mihaylovic-dostoyevski-3"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/6abd6532a978c516.png",
+        "imageUrl": "https://asset.kitapsepeti.com/yeraltindan-notlar-180362-427900-18-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/yeraltindan-notlar-180362",
+        "sourceName": "Kitapsepeti",
+        "title": "Yeraltından Notlar",
+        "author": "Fyodor Mihayloviç Dostoyevski",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9789944884013",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23620,6 +24225,18 @@
         "fyodor-mihaylovic-dostoyevski-4"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/3fcece1fc23ac715.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/budala-579727-1043176-57-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/budala-579727",
+        "sourceName": "Kitapsepeti",
+        "title": "Budala",
+        "author": "Fyodor Mihayloviç Dostoyevski",
+        "publisher": "Güneş Kitabevleri Yayınları",
+        "isbn": "9786258967715",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23686,6 +24303,18 @@
         "lev-nikolayevic-tolstoy"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/f9d7c33f2b2c73a1.png",
+        "imageUrl": "https://asset.kitapsepeti.com/savas-ve-baris-188186-938056-18-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/savas-ve-baris-188186",
+        "sourceName": "Kitapsepeti",
+        "title": "Savaş Ve Barış",
+        "author": "Lev Nikolayeviç Tolstoy",
+        "publisher": "Can Yayınları",
+        "isbn": "9789750738388",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23748,6 +24377,18 @@
         "lev-nikolayevic-tolstoy-2"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/0e8cc25afe43484c.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/anna-karenina-77604-194991-77-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/anna-karenina-77604",
+        "sourceName": "Kitapsepeti",
+        "title": "Anna Karenina",
+        "author": "Lev Nikolayeviç Tolstoy",
+        "publisher": "Artemis Yayınları",
+        "isbn": "9786050058284",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23810,6 +24451,18 @@
         "lev-nikolayevic-tolstoy-3"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/0af54d1bb7557fe0.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/ivan-ilyicin-olumu-588913-1057645-58-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/ivan-ilyicin-olumu-588913",
+        "sourceName": "Kitapsepeti",
+        "title": "İvan İlyiç’in Ölümü",
+        "author": "Aleksey Nikolayeviç Tolstoy",
+        "publisher": "Elpida Yayıncılık",
+        "isbn": "9786259156705",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23869,6 +24522,18 @@
         "lev-nikolayevic-tolstoy-4"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/a777d1b5eab7f2b6.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/insan-ne-ile-yasar-83530-279689-83-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/insan-ne-ile-yasar-83530",
+        "sourceName": "Kitapsepeti",
+        "title": "İnsan Ne ile Yaşar",
+        "author": "Lev Nikolayeviç Tolstoy",
+        "publisher": "Dipnot Yayınları",
+        "isbn": "9786054412457",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-G"
       ],
@@ -23925,6 +24590,18 @@
         "churchill-martin-gilbert"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/f1af8d89075049c3.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/churchill-468629-889502-46-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/churchill-468629",
+        "sourceName": "Kitapsepeti",
+        "title": "Churchill",
+        "author": "Martin Gilbert",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254297342",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -23981,6 +24658,18 @@
         "john-stuart-mill-nicholas-capaldi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/591c86ef20e5f8fb.png",
+        "imageUrl": "https://asset.kitapsepeti.com/john-stuart-mill-490371-917096-49-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/john-stuart-mill-490371",
+        "sourceName": "Kitapsepeti",
+        "title": "John Stuart Mill",
+        "author": "Nicholas Capaldi",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298615",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24037,6 +24726,18 @@
         "simon-bolivar-john-lynch"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/422a4bf2a7b17a65.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/simon-bolivar-467366-887834-46-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/simon-bolivar-467366",
+        "sourceName": "Kitapsepeti",
+        "title": "Simon Bolivar",
+        "author": "John Lynch",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254297366",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24093,6 +24794,18 @@
         "jean-jacques-rousseau-leo-damrosch"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/9f807132510453aa.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/jean-jacques-rousseau-501381-932114-50-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/jean-jacques-rousseau-501381",
+        "sourceName": "Kitapsepeti",
+        "title": "Jean-Jacques Rousseau",
+        "author": "Leo Damrosch",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299681",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24149,6 +24862,18 @@
         "immanuel-kant-manfred-kuehn"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/4d0b4e03feee80f7.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/immanuel-kant-450763-871149-45-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/immanuel-kant-450763",
+        "sourceName": "Kitapsepeti",
+        "title": "Immanuel Kant",
+        "author": "Manfred Kuehn",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254295652",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24205,6 +24930,18 @@
         "charles-darwin-adrian-desmond"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/05f7bedb09f4931a.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/charles-darwin-460911-880115-46-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/charles-darwin-460911",
+        "sourceName": "Kitapsepeti",
+        "title": "Charles Darwin",
+        "author": "Adrian Desmond",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254296659",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24373,6 +25110,18 @@
         "hammurabi-marc-van-de-mieroop"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/9b2aab7f55eb0def.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/hammurabi-514767-949057-51-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/hammurabi-514767",
+        "sourceName": "Kitapsepeti",
+        "title": "Hammurabi",
+        "author": "Marc Van De Mieroop",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786253840235",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24485,6 +25234,18 @@
         "gabriel-garcia-marquez-gerald-martin"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/bec191ad26bfa66e.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/gabriel-garca-mrquez-507071-939556-50-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/gabriel-garcía-márquez-507071",
+        "sourceName": "Kitapsepeti",
+        "title": "Gabriel García Márquez",
+        "author": "Gerald Martin",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299971",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24597,6 +25358,18 @@
         "jack-london-james-l-haley"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/17a6028197424e47.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/jack-london-481831-905774-48-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/jack-london-481831",
+        "sourceName": "Kitapsepeti",
+        "title": "Jack London",
+        "author": "James L. Haley",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298271",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24653,6 +25426,18 @@
         "budha-hajime-nakamura"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/e71f8192bed905f0.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/budha-803604-41-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/budha",
+        "sourceName": "Kitapsepeti",
+        "title": "Budha",
+        "author": "Hajime Nakamura",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254293740",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24709,6 +25494,18 @@
         "hegel-terry-pinkard"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/1fa6d3a7be204d42.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/hegel-445565-837724-44-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/hegel-445565",
+        "sourceName": "Kitapsepeti",
+        "title": "Hegel",
+        "author": "Terry Pinkard",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254295669",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -24765,6 +25562,18 @@
         "leibniz-maria-rosa-antognazza"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/6a63d2deee991139.png",
+        "imageUrl": "https://asset.kitapsepeti.com/leibniz-490373-917098-49-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/leibniz-490373",
+        "sourceName": "Kitapsepeti",
+        "title": "Leibniz",
+        "author": "Maria Rosa Antognazza",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298639",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25101,6 +25910,18 @@
         "kierkegaard-alastair-hannay"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/9ef5657453a9dca4.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/kierkegaard-490386-917110-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/kierkegaard-490386",
+        "sourceName": "Kitapsepeti",
+        "title": "Kierkegaard",
+        "author": "Alastair Hannay",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298622",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25157,6 +25978,18 @@
         "beethoven-lewis-lockwood"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/a188c5792ac20e11.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/beethoven-490387-917111-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/beethoven-490387",
+        "sourceName": "Kitapsepeti",
+        "title": "Beethoven",
+        "author": "Lewis Lockwood",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298646",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25213,6 +26046,18 @@
         "caesar-adrian-goldsworthy"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/203b8ade4aaee217.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/caesar-917113-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/caesar",
+        "sourceName": "Kitapsepeti",
+        "title": "Caesar",
+        "author": "Adrian Goldsworthy",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298653",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25269,6 +26114,18 @@
         "schopenhauer-david-e-cartwright"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/9a3d63050958e951.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/schopenhauer-459325-879354-45-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/schopenhauer-459325",
+        "sourceName": "Kitapsepeti",
+        "title": "Schopenhauer",
+        "author": "David E. Cartwright",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254296666",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25325,6 +26182,18 @@
         "paul-dirac-graham-farmelo"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/64ddfaaa8a0c49f5.png",
+        "imageUrl": "https://asset.kitapsepeti.com/paul-dirac-919692-49-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/paul-dirac",
+        "sourceName": "Kitapsepeti",
+        "title": "Paul Dırac",
+        "author": "Graham Farmelo",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298530",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25381,6 +26250,18 @@
         "benjamin-franklin-walter-isaacson"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/fa4c7038bd3ebf8b.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/benjamin-franklin-498269-927947-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/benjamin-franklin-498269",
+        "sourceName": "Kitapsepeti",
+        "title": "Benjamin Franklin",
+        "author": "Walter Isaacson",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299315",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25437,6 +26318,18 @@
         "jane-austen-claire-tomalin"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/32a979d6bd827c21.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/jane-austen-501383-932117-50-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/jane-austen-501383",
+        "sourceName": "Kitapsepeti",
+        "title": "Jane Austen",
+        "author": "Claire Tomalin",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299698",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25493,6 +26386,18 @@
         "robespierre-peter-mcphee"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/94460dc3c7c8e05a.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/robespierre-455555-876012-45-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/robespierre-455555",
+        "sourceName": "Kitapsepeti",
+        "title": "Robespierre",
+        "author": "Peter McPhee",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254296635",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25661,6 +26566,18 @@
         "kubilay-han-morris-rossabi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/2f63088211a18edb.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/kubilay-han-492241-919694-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/kubilay-han-492241",
+        "sourceName": "Kitapsepeti",
+        "title": "Kubilay Han",
+        "author": "Morris Rossabi",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298608",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25773,6 +26690,18 @@
         "buyuk-konstantin-paul-stephenson"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/5b470ccd0c7d4e0d.png",
+        "imageUrl": "https://asset.kitapsepeti.com/buyuk-konstantin-501992-932932-50-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/buyuk-konstantin-501992",
+        "sourceName": "Kitapsepeti",
+        "title": "Büyük Konstantin",
+        "author": "Paul Stephenson",
+        "publisher": "Kronik Kitap",
+        "isbn": "9786256228528",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25829,6 +26758,18 @@
         "descartes-desmond-m-clarke"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/520b93cc1f023923.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/descartes-498270-927948-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/descartes-498270",
+        "sourceName": "Kitapsepeti",
+        "title": "Descartes",
+        "author": "Desmond M. Clarke",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299322",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25885,6 +26826,18 @@
         "mozart-maynard-solomon"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/06fca49e873e311c.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/mozart-494892-923129-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/mozart-494892",
+        "sourceName": "Kitapsepeti",
+        "title": "Mozart",
+        "author": "Maynard Solomon",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298981",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25941,6 +26894,18 @@
         "tolkien-humphrey-carpenter"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/b492dfe3c3a200a0.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/tolkien-454680-875238-45-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/tolkien-454680",
+        "sourceName": "Kitapsepeti",
+        "title": "Tolkien",
+        "author": "Humphrey Carpenter",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254296642",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -25997,6 +26962,18 @@
         "marco-polo-laurence-bergreen"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/d6b38fcd58733c8c.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/marco-polo-502655-933799-50-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/marco-polo-502655",
+        "sourceName": "Kitapsepeti",
+        "title": "Marco Polo",
+        "author": "Laurence Bergreen",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299933",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26109,6 +27086,18 @@
         "macellan-laurence-bergreen"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/33b237a5f8818e23.png",
+        "imageUrl": "https://asset.kitapsepeti.com/macellan-519325-954661-51-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/macellan-519325",
+        "sourceName": "Kitapsepeti",
+        "title": "Macellan",
+        "author": "Laurence Bergreen",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786253840754",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26165,6 +27154,18 @@
         "carice-katerina-robert-k-massie"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/9c6a31d7ad869050.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/carice-katerina-494900-923131-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/carice-katerina-494900",
+        "sourceName": "Kitapsepeti",
+        "title": "Çariçe Katerina",
+        "author": "Robert K. Massie",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254298998",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26221,6 +27222,18 @@
         "perikles-thomas-r-martin"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/becf2c7cc33940f9.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/perikles-467367-887836-46-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/perikles-467367",
+        "sourceName": "Kitapsepeti",
+        "title": "Perikles",
+        "author": "Thomas R. Martin",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254297373",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26333,6 +27346,18 @@
         "selahaddin-eyyubi-anne-marie-edde"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/42eb1cfbcf4481e0.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/selahaddin-eyyubi-494899-923124-49-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/selahaddin-eyyubi-494899",
+        "sourceName": "Kitapsepeti",
+        "title": "Selahaddin Eyyubi",
+        "author": "Anne Marie Edde",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786254299001",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26389,6 +27414,18 @@
         "cengiz-han-frank-mclynn"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/ecaee003212050c1.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/cengiz-han-526780-964848-52-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/cengiz-han-526780",
+        "sourceName": "Kitapsepeti",
+        "title": "Cengiz Han",
+        "author": "Frank Mclynn",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786253841089",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26448,6 +27485,18 @@
         "ataturk-modern-turkiye-nin-kurucusu-andrew-mango"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/c934e3fa5d1aec3c.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/ataturk-119265-328983-11-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/ataturk-119265",
+        "sourceName": "Kitapsepeti",
+        "title": "Atatürk",
+        "author": "Andrew Mango",
+        "publisher": "Remzi Kitabevi",
+        "isbn": "9789751409881",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26507,6 +27556,18 @@
         "fatih-sultan-mehmed-ve-zamani-franz-babinger"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/84797436296112e6.png",
+        "imageUrl": "https://asset.kitapsepeti.com/fatih-sultan-mehmed-ve-zamani-ciltli-944746-56-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/fatih-sultan-mehmed-ve-zamani-ciltli",
+        "sourceName": "Kitapsepeti",
+        "title": "Fatih Sultan Mehmed ve Zamanı",
+        "author": "Franz Babinger",
+        "publisher": "Alfa Yayınları",
+        "isbn": "9786254493614",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26625,6 +27686,18 @@
         "einstein-yasami-ve-evreni-walter-isaacson"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/83574ce911000fe9.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/einstein-yasami-ve-evreni-969807-35-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/einstein-yasami-ve-evreni",
+        "sourceName": "Kitapsepeti",
+        "title": "Einstein Yaşamı ve Evreni",
+        "author": "Walter Isaacson",
+        "publisher": "Delidolu",
+        "isbn": "9786257314626",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26684,6 +27757,18 @@
         "leonardo-da-vinci-walter-isaacson"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/5438c152ed301237.png",
+        "imageUrl": "https://asset.kitapsepeti.com/leonardo-da-vinci-69170-934194-69-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/leonardo-da-vinci-69170",
+        "sourceName": "Kitapsepeti",
+        "title": "Leonardo Da Vinci",
+        "author": "Walter Isaacson",
+        "publisher": "Domingo Yayınevi",
+        "isbn": "9786051981048",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -26801,6 +27886,18 @@
         "lenin-robert-service"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/0951caa80b947130.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/lenin-272920-311832-27-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/lenin-272920",
+        "sourceName": "Kitapsepeti",
+        "title": "Lenin",
+        "author": "Robert Service",
+        "publisher": "Abis Yayıncılık",
+        "isbn": "9786056321757",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-H"
       ],
@@ -27309,6 +28406,18 @@
         "the-obstacle-is-the-way-ryan-holiday"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/428f17b31c0d96d5.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/engeller-yolun-ta-kendisidir-961187-52-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/engeller-yolun-ta-kendisidir",
+        "sourceName": "Kitapsepeti",
+        "title": "Engeller Yolun Ta Kendisidir",
+        "author": "Ryan Holiday",
+        "publisher": "Diyojen Yayıncılık",
+        "isbn": "9786255989185",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-M",
         "kitaps-N"
@@ -27440,6 +28549,18 @@
         "meditations-marcus-aurelius"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/c210c58df6542580.png",
+        "imageUrl": "https://asset.kitapsepeti.com/kendime-dusunceler-154613-183060-15-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/kendime-dusunceler-154613",
+        "sourceName": "Kitapsepeti",
+        "title": "Kendime Düşünceler",
+        "author": "Marcus Aurelius",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786052954027",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-N"
       ],
@@ -27503,6 +28624,18 @@
         "atomic-habits-james-clear"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/92d02404e4434b96.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/atomik-aliskanliklar-374509-33-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/atomik-aliskanliklar",
+        "sourceName": "Kitapsepeti",
+        "title": "Atomik Alışkanlıklar",
+        "author": "James Clear",
+        "publisher": "Pegasus Yayınları",
+        "isbn": "9786052998380",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-N"
       ],
@@ -27567,6 +28700,18 @@
         "nonviolent-communication-marshall-b-rosenberg"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/f27fe892d03c5a36.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/siddetsiz-iletisim-355003-18-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/siddetsiz-iletisim",
+        "sourceName": "Kitapsepeti",
+        "title": "Şiddetsiz İletişim - Bir Yaşam Dili",
+        "author": "Marshall B. Rosenberg",
+        "publisher": "Remzi Kitabevi",
+        "isbn": "9789751418869",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-N"
       ],
@@ -27629,6 +28774,18 @@
         "never-split-the-difference-chris-voss-tahl-raz"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/79cadfd320e9e167.png",
+        "imageUrl": "https://asset.kitapsepeti.com/sen-bitti-dediginde-940871-18-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/sen-bitti-dediginde",
+        "sourceName": "Kitapsepeti",
+        "title": "Sen Bitti Dediğinde",
+        "author": "Chris Voss",
+        "publisher": "Sola Unitas",
+        "isbn": "9786052250006",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-N"
       ],
@@ -27810,6 +28967,18 @@
         "kucuk-prens-antoine-de-saint-exupery"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/501aa1288d88e1b2.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/kucuk-prens-588846-1057574-58-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/kucuk-prens-588846",
+        "sourceName": "Kitapsepeti",
+        "title": "Küçük Prens",
+        "author": "Antoine de Saint-Exupéry",
+        "publisher": "Turkuvaz Çocuk",
+        "isbn": "9786258292718",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -27925,6 +29094,18 @@
         "matilda-roald-dahl"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/1372c63b35ea72a5.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/matilda-921295-82-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/matilda",
+        "sourceName": "Kitapsepeti",
+        "title": "Matilda",
+        "author": "Roald Dahl",
+        "publisher": "Can Çocuk Yayınları",
+        "isbn": "9789750707810",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -27983,6 +29164,18 @@
         "kucuk-kara-balik-samed-behrengi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/514fdbfce17f2671.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/kucuk-karabalik-207686-172258-20-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/kucuk-karabalik-207686",
+        "sourceName": "Kitapsepeti",
+        "title": "Küçük Karabalık",
+        "author": "Samed Behrengi",
+        "publisher": "Parıltı Yayınları",
+        "isbn": "9786053030317",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28156,6 +29349,18 @@
         "seker-portakali-jose-mauro-de-vasconcelos"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/938faec999bd7954.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/seker-portakali-217672-1014955-21-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/seker-portakali-217672",
+        "sourceName": "Kitapsepeti",
+        "title": "Şeker Portakalı",
+        "author": "Jose Mauro de Vasconcelos",
+        "publisher": "Can Yayınları",
+        "isbn": "9789750738609",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28214,6 +29419,18 @@
         "harry-potter-ve-felsefe-tasi-j-k-rowling"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/018755b9af58acad.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/harry-potter-ve-felsefe-tasi-resimli-ozel-baski-486854-86-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/harry-potter-ve-felsefe-tasi-resimli-ozel-baski",
+        "sourceName": "Kitapsepeti",
+        "title": "Harry Potter ve Felsefe Taşı Resimli Özel Baskı",
+        "author": "J. K. Rowling",
+        "publisher": "Yapı Kredi Yayınları",
+        "isbn": "9789750834660",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28271,6 +29488,18 @@
         "oz-buyucusu-l-frank-baum"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/20791fb19309aa8e.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/oz-buyucusu-96997-383252-96-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/oz-buyucusu-96997",
+        "sourceName": "Kitapsepeti",
+        "title": "Oz Büyücüsü",
+        "author": "Lyman Frank Baum",
+        "publisher": "Arkadaş Yayınları",
+        "isbn": "9789755098067",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28328,6 +29557,18 @@
         "alice-harikalar-diyarinda-lewis-carroll"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/dfb922d4c8bc9681.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/alice-harikalar-diyarinda-534359-974743-53-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/alice-harikalar-diyarinda-534359",
+        "sourceName": "Kitapsepeti",
+        "title": "Alice Harikalar Diyarında",
+        "author": "Lewis Carroll",
+        "publisher": "Parana Yayınları",
+        "isbn": "9786259612645",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28385,6 +29626,18 @@
         "heidi-johanna-spyri"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/05a331a7f4f1929f.png",
+        "imageUrl": "https://asset.kitapsepeti.com/heidi-536900-978403-53-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/heidi-536900",
+        "sourceName": "Kitapsepeti",
+        "title": "Heidi",
+        "author": "Johanna Spyri",
+        "publisher": "Paper Books",
+        "isbn": "9786256227897",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28442,6 +29695,18 @@
         "cocuk-kalbi-edmondo-de-amicis"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/7b0985761df81c04.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/cocuk-kalbi-578515-1038822-57-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/cocuk-kalbi-578515",
+        "sourceName": "Kitapsepeti",
+        "title": "Çocuk Kalbi",
+        "author": "Edmondo De Amicis",
+        "publisher": "Yapı Kredi Yayınları",
+        "isbn": "9789750868290",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -28727,6 +29992,18 @@
         "fadis-gulten-dayioglu"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/0d6c4cbd4873f28d.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/fadis-828710-11-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/fadis",
+        "sourceName": "Kitapsepeti",
+        "title": "Fadiş",
+        "author": "Gülten Dayıoğlu",
+        "publisher": "Altın Kitaplar",
+        "isbn": "9789754050929",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -29181,6 +30458,18 @@
         "bir-seftali-bin-seftali-samed-behrengi"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/8739b02ec19d21ce.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/dirilen-iskelet-397010-1047335-39-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/dirilen-iskelet-397010",
+        "sourceName": "Kitapsepeti",
+        "title": "Bir Şeftali Bin Şeftali",
+        "author": "Samed Bahrengi",
+        "publisher": "Katip Yayınları",
+        "isbn": "9786258212242",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -29238,6 +30527,18 @@
         "savas-ati-michael-morpurgo"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/b39593f5a0facd72.png",
+        "imageUrl": "https://asset.kitapsepeti.com/savas-ati-538552-980524-53-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/savas-ati-538552",
+        "sourceName": "Kitapsepeti",
+        "title": "Savaş Atı",
+        "author": "Michael Morpurgo",
+        "publisher": "Tudem Yayınları",
+        "isbn": "9786253800284",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -29295,6 +30596,18 @@
         "ezop-masallari-ezop"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/67869ced0c61ee20.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/ezop-masallari-464065-883504-46-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/ezop-masallari-464065",
+        "sourceName": "Kitapsepeti",
+        "title": "Ezop Masalları",
+        "author": "Ezop",
+        "publisher": "Pars Yayınları",
+        "isbn": "9786057309594",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -29352,6 +30665,18 @@
         "grimm-masallari-grimm-kardesler"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/e893b461df48bbed.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/grimm-masallari-97229-219120-97-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/grimm-masallari-97229",
+        "sourceName": "Kitapsepeti",
+        "title": "Grimm Masalları",
+        "author": "Grimm Kardeşler",
+        "publisher": "Epsilon Yayınevi",
+        "isbn": "9789944829199",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -29409,6 +30734,18 @@
         "andersen-masallari-h-c-andersen"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/49ed77a0ec9658b1.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/andersen-masallari-97153-218392-97-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/andersen-masallari-97153",
+        "sourceName": "Kitapsepeti",
+        "title": "Andersen Masalları",
+        "author": "Hans Christian Andersen",
+        "publisher": "Epsilon Yayınevi",
+        "isbn": "9789944827287",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-P"
       ],
@@ -29525,6 +30862,18 @@
         "durdurulamayan-insanlik-dunyanin-hakimiyetini-nasil-ele-geci"
       ],
       "tags": [],
+      "cover": {
+        "src": "covers/111e960589a185bb.jpg",
+        "imageUrl": "https://asset.kitapsepeti.com/durdurulamayan-insanlik-581455-38-O.jpg",
+        "sourceUrl": "https://www.kitapsepeti.com/durdurulamayan-insanlik",
+        "sourceName": "Kitapsepeti",
+        "title": "Durdurulamayan İnsanlık",
+        "author": "Yuval Noah Harari",
+        "publisher": "Kolektif Kitap",
+        "isbn": "9786052205945",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-R"
       ],
@@ -29892,6 +31241,18 @@
       ],
       "legacyKeys": [],
       "tags": [],
+      "cover": {
+        "src": "covers/98a748ed30df9422.png",
+        "imageUrl": "https://asset.kitapsepeti.com/dorian-grayin-portresi-182899-45-O.png",
+        "sourceUrl": "https://www.kitapsepeti.com/dorian-grayin-portresi",
+        "sourceName": "Kitapsepeti",
+        "title": "Dorian Gray’in Portresi",
+        "author": "Oscar Wilde",
+        "publisher": "İş Bankası Kültür Yayınları",
+        "isbn": "9786052956267",
+        "language": "tr",
+        "checkedAt": "2026-09-28"
+      },
       "collectionIds": [
         "kitaps-L"
       ],

@@ -1,10 +1,10 @@
-export const STATE_LABELS = { onemli: 'Önemli', alinacak: 'Alınacak', alindi: 'Satın alındı', okunuyor: 'Okunuyor', okundu: 'Okundu' };
+export const STATE_LABELS = { onemli: 'Önemli', alinacak: 'Alınacak', alindi: 'Satın alındı', okunuyor: 'Okunuyor', okundu: 'Okundu', araverildi: 'Ara verdim', birakildi: 'Bıraktım' };
 export const QUALITY_LABELS = { ok: 'Kaynakta doğrulanmış', warn: 'Baskı / çeviri uyarısı', unverified: 'Künye eksik', avoid: 'Kaçınılacak baskı notu' };
 export const ORIGIN_LABELS = { atlas: 'Kitap Atlası', local: 'Okuma Kümeleri', kitaps: 'Kitaps' };
 export const emptyFilters = () => ({ query: '', categories: [], collections: [], groups: [], states: [], authors: [], origins: [], awards: [], awardYears: [], qualities: [], categoryMode: 'any', collectionMode: 'any', hasEdition: false, shared: false, yearMin: '', yearMax: '' });
 export const normalize = value => String(value ?? '').toLocaleLowerCase('tr-TR').replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’‘]/g, "'");
 export function prepareBooks(books) {
- return books.map(book => ({ ...book, searchText: normalize([book.title, book.titleTr, book.author, ...book.aliases, ...book.editions.flatMap(e => [e.translator,e.publisher,e.turkish,e.original]), ...book.notes.map(n=>n.text)].join(' ')) }));
+ return books.map(book => ({ ...book, searchText: normalize([book.title, book.titleTr, book.cover?.title, book.cover?.publisher, book.cover?.isbn, book.author, ...book.aliases, ...book.editions.flatMap(e => [e.translator,e.publisher,e.turkish,e.original]), ...book.notes.map(n=>n.text)].join(' ')) }));
 }
 const matchesValues = (actual, selected, mode = 'any') => !selected.length || (mode === 'all' ? selected.every(x => actual.includes(x)) : selected.some(x => actual.includes(x)));
 export function filterBooks(books, filters, states = {}) {
@@ -46,6 +46,8 @@ export function toggleState(current, key) {
   result.add(key);
   const opposite = { alinacak: 'alindi', alindi: 'alinacak', okunuyor: 'okundu', okundu: 'okunuyor' }[key];
   if (opposite) result.delete(opposite);
+  const readingStates=['okunuyor','okundu','araverildi','birakildi'];
+  if(readingStates.includes(key))for(const state of readingStates)if(state!==key)result.delete(state);
  }
  return [...result];
 }
@@ -75,7 +77,7 @@ export function decodeRoute(hash, catalog) {
    if (Array.isArray(defaults.filters[k]) && Array.isArray(v)) defaults.filters[k] = v.filter(x=>typeof x==='string');
    else if (typeof v===typeof defaults.filters[k] || ['yearMin','yearMax'].includes(k) && typeof v==='number') defaults.filters[k]=v;
   }
-  return {...defaults,view:['books','collections','notes'].includes(p.get('view'))?p.get('view'):'books',sort:['title','author','shared','newest','saved'].includes(p.get('sort'))?p.get('sort'):'shared',book:catalog.books.some(b=>b.id===p.get('book'))?p.get('book'):null};
+  return {...defaults,view:['books','owned','queue','collections','notes'].includes(p.get('view'))?p.get('view'):'books',sort:['title','author','shared','newest','saved'].includes(p.get('sort'))?p.get('sort'):'shared',book:catalog.books.some(b=>b.id===p.get('book'))?p.get('book'):null};
  } catch { return defaults; }
 }
 export function encodeRoute(route) {
@@ -86,4 +88,16 @@ export function encodeRoute(route) {
  if(route.sort!=='shared')p.set('sort',route.sort);
  if(route.book)p.set('book',route.book);
  return p.toString();
+}
+
+// Keep source meaning while rendering the user's library without emoji.
+export function plainTextMarkers(text) {
+ return text.replace(/\u2705\uFE0F?/gu,'[Doğrulandı]')
+  .replace(/\u26A0\uFE0F?/gu,'[Dikkat]')
+  .replace(/\u2753\uFE0F?/gu,'[Doğrulanmadı]')
+  .replace(/\u{1F6AB}\uFE0F?/gu,'[Bu baskıdan kaçın]');
+}
+
+export function booksForShelf(books,states,shelf='catalog') {
+ return books.filter(book=>shelf==='owned'?(states[book.id]||[]).includes('alindi'):!(states[book.id]||[]).includes('alindi'));
 }

@@ -135,6 +135,10 @@ for g in next(c for c in atlas['collections'] if c['id']=='ft')['groups']:
 overrides={'Thinking in Systems':['systems'],'The Goal':['systems'],'Out of the Crisis':['systems'],'Information Rules':['technology','economy','strategy'],'The Halo Effect':['psychology','management'],'Superforecasting':['psychology'],'How Brands Grow':['marketing'],'High Output Management':['management','productivity'],'The Effective Executive':['management','productivity'],'The Innovator’s Dilemma':['innovation','strategy'],'Competitive Advantage':['strategy'],'Co-opetition':['strategy'],'The Discoverers':['history','science'],'Syrup':['literature','marketing'],'The Republic of Tea':['enterprise','marketing'],'New Rules for the New Economy':['technology','economy'],'The Personal MBA':['management'],'The Power of Habit':['productivity','psychology'],'Atomic Habits':['productivity','psychology'],'Musashi':['literature','biography'],'Meditations':['philosophy'],'Antifragile':['psychology','finance'],'Nonviolent Communication':['communication'],'Drive':['psychology','management']}
 for title,cats in overrides.items():
  for bid in index.get(key(title),[]):addcat(books[bid],*cats)
+covers=read('data/turkish-covers.json')
+for bid,cover in covers.items():
+ assert bid in books,bid
+ books[bid]['cover']=cover
 for b in books.values():
  if not b['categories']:addcat(b,'management')
  b['collectionIds']=list(dict.fromkeys(m['collectionId'] for m in b['memberships']));b['groupIds']=list(dict.fromkeys(m['groupId'] for m in b['memberships']))

@@ -8,6 +8,7 @@
 
 - **320 px öncelikli, akışkan genişlik; en fazla 960 px.** 960 px sabit bir genişlik değildir.
 - Bütün metinlerde, rozetlerde, filtre seçeneklerinde ve form alanlarında en az **1 rem**.
+- Varsayılan yazı tipi **Josefin Sans Variable**; normal ve italik Latin / Latin Extended dosyaları projeye gömülür. Türkçe karakterler uzak font servisine ihtiyaç duymadan görüntülenir.
 - Mantine 9 bileşenleri; React Bits SpotlightCard ile sınırlı bir vurgu efekti.
 - Kitap, Türkçe/özgün ad, yazar, çevirmen, yayınevi ve okuma notlarında Türkçe karakterlere duyarlı arama.
 - Küme, alt küme, çoklu kategori, yazar, kaynak, kişisel okuma durumu, künye işareti, FT ödülü ve yıl filtreleri.
@@ -15,7 +16,8 @@
 - FT ödül yılı ve durumu aynı ödül kaydında eşleşmek zorundadır. İlk yayın yılı ayrıca tutulur; bu bilgi yoksa yıl filtresinden geçmez.
 - Etkin filtreleri tek tek kaldırma, bütününü temizleme, sıralama ve 24 kitaplık sayfalama.
 - Filtreler ve açık kitap URL'de saklanır; bağlantılar paylaşılabilir.
-- Çeviri karşılaştırmaları, künye notları ve kaynak dosyanın tamamı.
+- Çeviri karşılaştırmaları, künye notları ve kaynak dosyanın tamamı. Kaynak tabloları etiketli Mantine kartları olarak gösterilir; dar ekranda alanlar alt alta, geniş ekranda iki sütunda yerleşir.
+- Emojiler, anlamı korunarak düz metin etiketlerine dönüştürülür. Özgün arşiv kaynak dosyası korunur.
 - Kişisel işaretleri yedekleme / içe aktarma ve bütün veri arşivini indirme.
 
 ## Birleştirilen kaynaklar
@@ -43,11 +45,17 @@ FT verisi **26 Eylül 2026** arşiv görünümüdür. Birleşik katalog **28 Eyl
 - 100 Best 2016: [yazar listesi](https://toddsattersten.com/what-to-read/), [yayıncı](https://www.penguinrandomhouse.com/books/536326/the-100-best-business-books-of-all-time-by-jack-covert-and-todd-sattersten-with-sally-haldorson/), [yayıncının kitap önizlemesi](https://www.everand.com/book/769198057/The-100-Best-Business-Books-of-All-Time-What-They-Say-Why-They-Matter-and-How-They-Can-Help-You)
 - [MIT Sloan 15.902 Güz 2006](https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/readings/)
 
-## Okuma işaretleri
+## Kişisel kitaplık ve okuma takibi
 
 Sunucu ve hesap sistemi yoktur. `kitapatlasi:states:v2` anahtarıyla bu tarayıcıya kaydedilir. Aynı origin'deki eski `kitaps:states:v1` işaretleri bütün eski kitap anahtarlarından yeni eserlere aktarılır; eski depolama silinmez veya değiştirilmez. Kullanıcının yeni uygulamada kaldırdığı bir işaret, sonraki açılışta yeniden aktarılmaz. Başka tarayıcı veya cihazdaki işaretlere otomatik erişilemez.
 
-`Alınacak / Satın alındı` ve `Okunuyor / Okundu` birbirini dışlar. `Önemli` bunlarla birlikte kullanılabilir. Kaynak dosyadaki “okunuyor” notu kişisel durum olarak atanmaz. Künye puanları kaynağın değerlendirmesidir; okuma işaretlerinden bağımsızdır.
+“Satın aldım” işaretlenen eser katalog ve küme keşif sonuçlarından çıkar, üstte sabit duran **KİTAPLIĞIM** bölümüne geçer. Bu işareti kaldırmak kitabı keşif listelerine geri getirir. Kaynak üyelikleri, okuma sırası ve notlar korunur. Küme ve alt küme sayaçları satın alınmamış eserleri gösterir.
+
+**Sıradaki 5 kitabım** bölümünde en fazla beş eser tutulur; yukarı/aşağı düğmeleriyle sıralanır. Başlama ve bitiş tarihi, kaldığın sayfa, toplam sayfa, “Neden okuyorum?” ve “Bundan neyi uygulayacağım?” notları `kitapatlasi:personal:v1` içinde saklanır. Sıradan çıkarma okuma kaydını silmez. “Okunuyor” ve “Okundu” ilk işaretlendiğinde ilgili tarih boşsa bugünün tarihi eklenir; kullanıcı değiştirebilir.
+
+`Alınacak / Satın alındı` birbirini dışlar. `Okunuyor / Okundu / Ara verdim / Bıraktım` durumlarından aynı anda biri seçilebilir. `Önemli` bunlarla birlikte kullanılabilir. Kaynak dosyadaki “okunuyor” notu kişisel durum olarak atanmaz. Künye puanları kaynağın değerlendirmesidir; okuma işaretlerinden bağımsızdır.
+
+Notlar bölümündeki kişisel yedek, işaretleri, sırayı ve bütün okuma kayıtlarını içerir. Sürüm 3 yedeğindeki sıra mevcut sıranın yerini alır; işaretler ve okuma kayıtları eser bazında birleştirilir. Eski işaret yedekleri sırayı ve notları değiştirmeden içe aktarılabilir. Kişisel notlar URL’ye veya ortak katalog dosyasına eklenmez.
 
 ## Geliştirme ve doğrulama
 
@@ -61,8 +69,16 @@ npm run build
 
 `src/library.js` filtreleme, sıralama, eski durum aktarımı ve URL kodlamasını arayüzden bağımsız tutar. Testler kaynak kayıtlarının korunmasını, Latin dışı başlıkları, çeviri eşlemelerini, çoklu kategorileri, küme kesişimini, FT yıl/durum eşleşmesini, Türkçe aramayı, durum aktarımını ve URL geri yüklemeyi doğrular.
 
-Build, fontlar, CSS, JavaScript, birleşik katalog ve özgün veri arşivlerini **tek `dist/index.html` dosyasında** paketler. Yerel HTML internetsiz açılır; dış kaynak bağlantıları internet gerektirir. GitHub Actions testleri ve build'i çalıştırıp `main` dalını GitHub Pages'e yayımlar.
+Build, fontlar, CSS, JavaScript, birleşik katalog ve özgün veri arşivlerini `dist/index.html` dosyasında paketler; kapaklar `dist/covers/` altında siteyle birlikte sunulur ve sayfaya yaklaştıkça yüklenir. `npm run export`, kapakları da içine gömen, internetsiz açılabilen `../kitapsxsil.html` dosyasını ve tam JSON arşivini üretir. Dış kaynak bağlantıları internet gerektirir. GitHub Actions testleri ve build'i çalıştırıp `main` dalını GitHub Pages'e yayımlar.
 
 ## Lisanslar
 
-React Bits SpotlightCard: David Haz, **MIT + Commons Clause** (`REACT-BITS-LICENSE.md`). React, Mantine, Tabler Icons, react-markdown ve remark-gfm: MIT. DM Sans ve Newsreader: SIL Open Font License (`FONT-LICENSES.txt`).
+React Bits SpotlightCard: David Haz, **MIT + Commons Clause** (`REACT-BITS-LICENSE.md`). React, Mantine, Tabler Icons, react-markdown ve remark-gfm: MIT. Josefin Sans: SIL Open Font License (`FONT-LICENSES.txt`).
+
+## Türkiye baskılarının kapakları
+
+113 eser için Türkçe baskı kapağı eklendi. `data/turkish-covers.json` her kapağın kaynak sayfasını, görsel adresini, ISBN, yazar ve yayınevini saklar. Görseller `public/covers/` içinde barındırılır. Kitapsepeti ürün metaverisinde dil, başlık ve yazar eşleşmesi aranır; belirli baskılar ayrıca yayınevi veya kitapçı sayfalarından elle eşleştirilir. Devam kitapları, uyarlamalar ve seriler aynı ad benzerliğiyle otomatik atanmaz.
+
+Kapak bir eserin seçilen Türkçe baskısını temsil eder; kaynaktaki bütün çeviri önerileri aynı baskıya ait değildir. Ayrıntı paneli kapağın kendi yayınevini, ISBN ve kaynak bağlantısını gösterir. Eşleşmeyen eserlerde açıkça yer tutucu gösterilir; bu durum Türkçe baskısının bulunmadığı anlamına gelmez. Eski Open Library kimlikleri özgün arşivde korunur ve Türkçe kapak olarak kullanılmaz.
+
+`fetch-turkish-covers.py` isteğe bağlı araştırma aracıdır; `requests` ve `beautifulsoup4` gerektirir. Build sırasında ağdan kapak aramaz. Yayınevi görsellerinin hakları ilgili hak sahiplerine aittir.

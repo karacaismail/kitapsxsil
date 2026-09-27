@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { prepareBooks, filterBooks, emptyFilters, toggleState, migrateStates, decodeRoute, encodeRoute } from '../src/library.js';
+import { prepareBooks, filterBooks, emptyFilters, toggleState, migrateStates, decodeRoute, encodeRoute, plainTextMarkers, booksForShelf } from '../src/library.js';
 const catalog=JSON.parse(fs.readFileSync(new URL('../src/catalog.json',import.meta.url)));
 const books=prepareBooks(catalog.books);
 const filter=(f,states)=>filterBooks(books,{...emptyFilters(),...f},states);
@@ -66,4 +66,32 @@ test('filters survive shareable URL and malformed routes recover',()=>{
  const route={view:'books',sort:'title',book:books[0].id,filters:{...emptyFilters(),categories:['strategy','psychology'],categoryMode:'all',yearMin:1980,query:'İyi Strateji'}};
  assert.deepEqual(decodeRoute('#'+encodeRoute(route),catalog),route);
  assert.equal(decodeRoute('#f=broken',catalog).filters.query,'');
+});
+
+test('source note markers render as text without losing their meaning',()=>{
+ const notes=fs.readFileSync(new URL('../data/sources/kitaplar.md',import.meta.url),'utf8');
+ const output=plainTextMarkers(notes);
+ assert.ok(!/\p{Extended_Pictographic}/u.test(output));
+ for(const label of ['[Doğrulandı]','[Dikkat]','[Doğrulanmadı]','[Bu baskıdan kaçın]'])assert.ok(output.includes(label));
+ assert.ok(output.includes('Ali Atav'));assert.ok(output.includes('Canan Feyyat'));
+});
+
+
+test('purchased works move between shelves without changing catalog memberships or reading marks',()=>{
+ const b=books.find(b=>b.id==='goal');
+ const states={[b.id]:toggleState(['alinacak','okunuyor','onemli'],'alindi')};
+ const owned=booksForShelf(books,states,'owned');
+ const discover=booksForShelf(books,states);
+ assert.deepEqual(owned.map(b=>b.id),['goal']);
+ assert.equal(discover.length+owned.length,books.length);
+ assert.ok(!discover.some(x=>x.id===b.id));
+ assert.ok(states[b.id].includes('okunuyor')&&states[b.id].includes('onemli'));
+ for(const id of b.collectionIds)assert.ok(!filterBooks(discover,{...emptyFilters(),collections:[id]},states).some(x=>x.id===b.id));
+ assert.deepEqual(owned[0].memberships,b.memberships);
+ const restored={[b.id]:toggleState(states[b.id],'alindi')};
+ assert.equal(booksForShelf(books,restored).length,books.length);
+ assert.equal(booksForShelf(books,restored,'owned').length,0);
+ const route={view:'owned',sort:'title',book:null,filters:{...emptyFilters(),states:['okunuyor']}};
+ assert.deepEqual(decodeRoute('#'+encodeRoute(route),catalog),route);
+ assert.equal(filterBooks(owned,route.filters,states).length,1);
 });

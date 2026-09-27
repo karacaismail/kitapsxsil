@@ -4,7 +4,7 @@ export const ORIGIN_LABELS = { atlas: 'Kitap Atlası', local: 'Okuma Kümeleri',
 export const emptyFilters = () => ({ query: '', categories: [], collections: [], groups: [], states: [], authors: [], origins: [], awards: [], awardYears: [], qualities: [], categoryMode: 'any', collectionMode: 'any', hasEdition: false, shared: false, yearMin: '', yearMax: '' });
 export const normalize = value => String(value ?? '').toLocaleLowerCase('tr-TR').replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’‘]/g, "'");
 export function prepareBooks(books) {
- return books.map(book => ({ ...book, searchText: normalize([book.title, book.titleTr, book.cover?.title, book.cover?.publisher, book.cover?.isbn, book.author, ...book.aliases, ...book.editions.flatMap(e => [e.translator,e.publisher,e.turkish,e.original]), ...book.notes.map(n=>n.text)].join(' ')) }));
+ return books.map(book => ({ ...book, searchText: normalize([book.title, book.titleTr, book.cover?.title, book.cover?.publisher, book.cover?.isbn, book.author, ...book.aliases, ...(book.verifiedEdition?.translators||[]), book.verifiedEdition?.publisher, book.verifiedEdition?.isbn, ...book.editions.flatMap(e => [e.translator,e.publisher,e.turkish,e.original]), ...book.notes.map(n=>n.text)].join(' ')) }));
 }
 const matchesValues = (actual, selected, mode = 'any') => !selected.length || (mode === 'all' ? selected.every(x => actual.includes(x)) : selected.some(x => actual.includes(x)));
 export function filterBooks(books, filters, states = {}) {
@@ -19,7 +19,7 @@ export function filterBooks(books, filters, states = {}) {
   if (!matchesValues([b.author], f.authors)) return false;
   if (!matchesValues(b.origins, f.origins)) return false;
   if (!matchesValues(b.editions.flatMap(e => e.status || []), f.qualities)) return false;
-  if (f.hasEdition && !b.editions.some(e => e.translator || e.publisher)) return false;
+  if (f.hasEdition && !b.verifiedEdition && !b.editions.some(e => e.translator || e.publisher)) return false;
   if (f.shared && b.collectionIds.length < 2) return false;
   if ((f.yearMin !== '' || f.yearMax !== '') && !b.years.some(y => (f.yearMin === '' || y >= Number(f.yearMin)) && (f.yearMax === '' || y <= Number(f.yearMax)))) return false;
   // The award and its year must match the SAME membership, not two unrelated records.

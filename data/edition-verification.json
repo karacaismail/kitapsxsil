@@ -1,0 +1,226 @@
+{
+  "goodstrategybadstrategy": {
+    "title": "İyi Strateji / Kötü Strateji",
+    "publisher": "Nobel Yaşam",
+    "isbn": "9786059746946",
+    "translators": [
+      "Cengiz Yücel"
+    ],
+    "sourceUrl": "https://www.nobelyayin.com/kitap_15818.html",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28",
+    "editors": [
+      "Cihat Erbil"
+    ]
+  },
+  "goal": {
+    "title": "Amaç",
+    "publisher": "Optimist",
+    "isbn": "9786052261057",
+    "translators": [
+      "Ayşe Bilge Dicleli"
+    ],
+    "sourceUrl": "https://optimistkitap.com/kitap/amac/",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "scrumtheartofdoingtwicetheworkinhalfthetime": {
+    "title": "Scrum: İki Katı İşi Yarı Zamanda Yapma Sanatı",
+    "publisher": "Buzdağı",
+    "isbn": "9786058487475",
+    "translators": [
+      "Ali Atav"
+    ],
+    "sourceUrl": "https://www.buzdagikitabevi.com/scrum-iki-kati-isi-yari-zamanda-yapma-sanati",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "toyotaproductionsystem": {
+    "title": "Toyota Ruhu",
+    "publisher": "Scala",
+    "isbn": "9786059248266",
+    "translators": [
+      "Canan Feyyat"
+    ],
+    "sourceUrl": "https://www.scalakitapci.com/toyota-ruhu",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "thinkinginsystems": {
+    "title": "Sistemlerle Düşünmek",
+    "publisher": "Pegem Akademi",
+    "isbn": "9786257582353",
+    "translators": [],
+    "sourceUrl": "https://depo.pegem.net/9786257582353.pdf",
+    "sourceType": "publisher-preview",
+    "checkedAt": "2026-09-28",
+    "translationEditors": [
+      "Kübra Bolay Özemre",
+      "Emre Göktepe"
+    ],
+    "note": "Örnek kitabın künye sayfasında bu isimler çeviri editörü olarak yer alıyor. Bölüm çevirmenlerinin tam listesi henüz doğrulanmadı."
+  },
+  "преступлениеинаказание": {
+    "title": "Suç ve Ceza",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9789754589023",
+    "translators": [
+      "Mazlum Beyhan"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/suc-ve-ceza-2.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "братьякарамазовы": {
+    "title": "Karamazov Kardeşler",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9789944880985",
+    "translators": [
+      "Nihal Yalaza Taluy"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/karamazov-kardesler-2.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "запискиизподполья": {
+    "title": "Yeraltından Notlar",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9789944884013",
+    "translators": [
+      "Nihal Yalaza Taluy"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/yeraltindan-notlar.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "идиот": {
+    "title": "Budala",
+    "publisher": "İletişim",
+    "isbn": "9789750516849",
+    "translators": [
+      "Mazlum Beyhan"
+    ],
+    "sourceUrl": "https://iletisim.com.tr/kitap/budala/9006",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28",
+    "correction": "Arşivde İletişim baskısına Ergin Altay adı yazılmıştı. Bu ISBN için yayınevinin verdiği çevirmen Mazlum Beyhan. Eski kayıt yalnızca arşivde korunuyor."
+  },
+  "аннакаренина": {
+    "title": "Anna Karenina",
+    "publisher": "İletişim",
+    "isbn": "9789750517457",
+    "translators": [
+      "Ergin Altay"
+    ],
+    "sourceUrl": "https://iletisim.com.tr/kitap/anna-karenina/9070",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28",
+    "sourceLanguage": "Rusça",
+    "previewUrl": "https://iletisim.com.tr/Images/UserFiles/Documents/Gallery/anna-karenina.pdf"
+  },
+  "смертьиванаильича": {
+    "title": "İvan İlyiç’in Ölümü",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9786053321170",
+    "translators": [
+      "Mazlum Beyhan"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/ivan-ilyicin-olumu.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28",
+    "correction": "Arşivde İş Bankası baskısına Mehmet Özgül adı yazılmıştı. Bu ISBN için yayınevinin verdiği çevirmen Mazlum Beyhan."
+  },
+  "atomichabits": {
+    "title": "Atomik Alışkanlıklar",
+    "publisher": "Pegasus",
+    "isbn": "9786052998380",
+    "translators": [
+      "Sevinç Seyla Tezcan"
+    ],
+    "sourceUrl": "https://pegasusyayinlari.com/kitap_detay.php?kitapid=15890312434",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "competitivestrategy": {
+    "title": "Rekabet Stratejisi",
+    "publisher": "Sistem Yayıncılık",
+    "isbn": "9789753220828",
+    "translators": [
+      "Gülen Ulubilgen"
+    ],
+    "sourceUrl": "https://www.kitapyurdu.com/kitap/rekabet-stratejisi-sektor-ve-rakip-analizi-teknikleri/13409.html",
+    "sourceType": "retailer",
+    "checkedAt": "2026-09-28",
+    "note": "Çevirmen adı bu ISBN için Kitapyurdu künyesindeki yazımıyla aktarılmıştır. Yayınevi künyesiyle ikinci kontrol bekliyor. Kapak, farklı ISBN taşıyan Aura baskısıdır; bu çevirmen bilgisi o kapağa bağlanmaz."
+  },
+  "powerlaw": {
+    "title": "Güç Yasası",
+    "publisher": "Scala",
+    "isbn": "9786255544414",
+    "translators": [
+      "Osman Şenkul"
+    ],
+    "sourceUrl": "https://www.scalakitapci.com/guc-yasasi",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28",
+    "editors": [
+      "Canan Feyyat"
+    ]
+  },
+  "manwhosolvedthemarket": {
+    "title": "Jim Simons: Piyasaların Şifresini Çözen Adam",
+    "publisher": "Scala",
+    "isbn": "9786257191043",
+    "translators": [
+      "Canan Feyyat"
+    ],
+    "sourceUrl": "https://www.scalakitapci.com/piyasalarin-sifresini-cozen-adam",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "meditations": {
+    "title": "Kendime Düşünceler",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9786052954027",
+    "translators": [
+      "Yunus Emre Ceren"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/kendime-dusunceler.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "pictureofdoriangray": {
+    "title": "Dorian Gray’in Portresi",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9786052956267",
+    "translators": [
+      "Didar Zeynep Batumlu"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/dorian-grayin-portresi.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "孫子兵法sunzibingfa": {
+    "title": "Savaş Sanatı",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9786053322696",
+    "translators": [
+      "Giray Fidan",
+      "Pulat Otkan"
+    ],
+    "sourceUrl": "https://www.iskultur.com.tr/savas-sanati.aspx",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  },
+  "personalmbamastertheartofbusiness": {
+    "title": "Kendi Kendine MBA",
+    "publisher": "Pegasus",
+    "isbn": "9786053437598",
+    "translators": [
+      "Muhtesim Güvenç"
+    ],
+    "sourceUrl": "https://pegasusyayinlari.com/kitap_detay.php?kitapid=14577057259",
+    "sourceType": "publisher",
+    "checkedAt": "2026-09-28"
+  }
+}

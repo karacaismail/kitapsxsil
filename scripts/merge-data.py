@@ -139,13 +139,17 @@ covers=read('data/turkish-covers.json')
 for bid,cover in covers.items():
  assert bid in books,bid
  books[bid]['cover']=cover
+for bid,edition in read('data/edition-verification.json').items():
+ assert bid in books,bid
+ books[bid]['verifiedEdition']=edition
+ if not books[bid]['titleTr']:books[bid]['titleTr']=edition['title']
 for b in books.values():
  if not b['categories']:addcat(b,'management')
  b['collectionIds']=list(dict.fromkeys(m['collectionId'] for m in b['memberships']));b['groupIds']=list(dict.fromkeys(m['groupId'] for m in b['memberships']))
 for c in collections:
  c['count']=sum(c['id'] in b['collectionIds'] for b in books.values());c['groupIds']=[g['id'] for g in groups if g['collectionId']==c['id']]
 for g in groups:g['count']=sum(g['id'] in b['groupIds'] for b in books.values())
-result={'updated':'28 Eylül 2026','books':list(books.values()),'collections':collections,'groups':groups,'categories':[{'id':k,'label':v,'count':sum(k in b['categories'] for b in books.values())} for k,v in categoryNames.items()],'sourceTags':local['tags'],'mapping':mapping,'sourceCounts':{'atlasEntries':sum(len(g['books']) for c in atlas['collections'] for g in c['groups']),'localBooks':len(local['books']),'kitapsRecords':len(kitaps['books'])}}
+result={'updated':'28 Eylül 2026','readingGuides':read('data/reading-guides.json'),'books':list(books.values()),'collections':collections,'groups':groups,'categories':[{'id':k,'label':v,'count':sum(k in b['categories'] for b in books.values())} for k,v in categoryNames.items()],'sourceTags':local['tags'],'mapping':mapping,'sourceCounts':{'atlasEntries':sum(len(g['books']) for c in atlas['collections'] for g in c['groups']),'localBooks':len(local['books']),'kitapsRecords':len(kitaps['books'])}}
 (ROOT/'src/catalog.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(len(books),'books',len(collections),'collections',len(groups),'groups')
 print('Edition records',sum(len(b['editions']) for b in books.values()))

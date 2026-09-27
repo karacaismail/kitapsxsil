@@ -14,7 +14,7 @@
 - Küme, alt küme, çoklu kategori, yazar, kaynak, kişisel okuma durumu, künye işareti, FT ödülü ve yıl filtreleri.
 - Farklı filtre alanları birlikte uygulanır. Aynı alandaki seçimler varsayılan olarak **VEYA** ile birleşir; kategori ve kümeler için **VE** seçeneği vardır.
 - FT ödül yılı ve durumu aynı ödül kaydında eşleşmek zorundadır. İlk yayın yılı ayrıca tutulur; bu bilgi yoksa yıl filtresinden geçmez.
-- Etkin filtreleri tek tek kaldırma, bütününü temizleme, sıralama ve 24 kitaplık sayfalama.
+- Etkin filtreleri tek tek kaldırma, bütününü temizleme, sıralama; 12/24/48 kitaplık sayfalar, sayfa numaraları, ilk/son sayfa ve doğrudan sayfaya gitme.
 - Filtreler ve açık kitap URL'de saklanır; bağlantılar paylaşılabilir.
 - Çeviri karşılaştırmaları, künye notları ve kaynak dosyanın tamamı. Kaynak tabloları etiketli Mantine kartları olarak gösterilir; dar ekranda alanlar alt alta, geniş ekranda iki sütunda yerleşir.
 - Emojiler, anlamı korunarak düz metin etiketlerine dönüştürülür. Özgün arşiv kaynak dosyası korunur.
@@ -77,8 +77,24 @@ React Bits SpotlightCard: David Haz, **MIT + Commons Clause** (`REACT-BITS-LICEN
 
 ## Türkiye baskılarının kapakları
 
-113 eser için Türkçe baskı kapağı eklendi. `data/turkish-covers.json` her kapağın kaynak sayfasını, görsel adresini, ISBN, yazar ve yayınevini saklar. Görseller `public/covers/` içinde barındırılır. Kitapsepeti ürün metaverisinde dil, başlık ve yazar eşleşmesi aranır; belirli baskılar ayrıca yayınevi veya kitapçı sayfalarından elle eşleştirilir. Devam kitapları, uyarlamalar ve seriler aynı ad benzerliğiyle otomatik atanmaz.
+116 eser için Türkçe baskı kapağı eklendi. `data/turkish-covers.json` her kapağın kaynak sayfasını, görsel adresini, ISBN, yazar ve yayınevini saklar. Görseller `public/covers/` içinde barındırılır. Kitapsepeti ürün metaverisinde dil, başlık ve yazar eşleşmesi aranır; belirli baskılar ayrıca yayınevi veya kitapçı sayfalarından elle eşleştirilir. Devam kitapları, uyarlamalar ve seriler aynı ad benzerliğiyle otomatik atanmaz.
 
 Kapak bir eserin seçilen Türkçe baskısını temsil eder; kaynaktaki bütün çeviri önerileri aynı baskıya ait değildir. Ayrıntı paneli kapağın kendi yayınevini, ISBN ve kaynak bağlantısını gösterir. Eşleşmeyen eserlerde açıkça yer tutucu gösterilir; bu durum Türkçe baskısının bulunmadığı anlamına gelmez. Eski Open Library kimlikleri özgün arşivde korunur ve Türkçe kapak olarak kullanılmaz.
 
 `fetch-turkish-covers.py` isteğe bağlı araştırma aracıdır; `requests` ve `beautifulsoup4` gerektirir. Build sırasında ağdan kapak aramaz. Yayınevi görsellerinin hakları ilgili hak sahiplerine aittir.
+
+## Okuma amacı ve kitap keşfi
+
+Her eserde “Ne için okumalıyım?”, gerekçeli ön okuma ve devam önerileri bulunur. `data/reading-guides.json` içinde 112 kitaba özel amaç, 21 konu rotası ve 18 eser için özel önce/sonra bağlantıları tutulur. Diğer eserlerde kaynak notu veya açıkça **konuya göre öneri** olarak etiketlenen amaç gösterilir; bu, 718 eserin tamamının ayrı ayrı içerik incelemesi yapıldığı anlamına gelmez. Okuma sırası editoryal bir öneridir; kaynak kümesine üyelik zorunlu önkoşul sayılmaz.
+
+Önerilen kitaplar aynı ayrıntı panelinde açılır; önceki kitaba dönülebilir. Benzer kitaplarda konu veya kaynak kümesi seçilir. Seçilen kümenin tüm kitaplarına “4 kitap daha göster” ile ulaşılır. Satın alınanlar keşif önerilerinden çıkar; ön/son okuma rotasında ise sahiplik işaretiyle görünür, çünkü sahip olmak okumuş olmak anlamına gelmez.
+
+Kartın kapağında yıldızın altında bulunan kitap simgesi “Satın aldım” işlemini yapar. Erişilebilir adı, açıklama balonu, en az 44 px hedef alanı ve geri alma bildirimi bulunur.
+
+## Çeviri doğrulamasının kapsamı
+
+`data/edition-verification.json` 19 eserin baskı kontrolünü kaydeder: **17 çevirmen kaydı yayıneviyle doğrulandı**, bir kayıtta yayınevinin çeviri editörleri doğrulandı (Sistemlerle Düşünmek), bir kayıtta kitapçı künyesi ikinci kontrol bekliyor (Rekabet Stratejisi). Diğer eserlerde çevirmen doğrulaması tamamlanmadığı açıkça yazılır. İsmi doğrulamak, çevirinin kalitesini karşılaştırmalı olarak incelemek değildir; otomatik “en iyi çevirmen” puanı üretilmez.
+
+Budala’nın İletişim ve İvan İlyiç’in Ölümü’nün İş Bankası baskıları için arşivdeki yanlış çevirmen eşleşmeleri düzeltildi. Altı kapak seçimi, doğrulanan baskının ISBN’siyle yeniden eşleştirildi. Eski kayıtlar değiştirilmeden, “Arşivdeki çeviri ve baskı notları” içinde korunur. Kaynağın sayısal güven puanları kitap ayrıntısında kalite ölçütü olarak gösterilmez; özgün veri arşivinde saklanır.
+
+Her eserde baskı/ISBN, kaynak dil, tam metin, çevirmenin alan deneyimi, örnek metin karşılaştırması ve editoryal destek için seçim ölçütleri bulunur. Arama doğrulanmış çevirmen ve ISBN alanlarını da kapsar.

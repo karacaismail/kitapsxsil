@@ -144,16 +144,17 @@
     "checkedAt": "2026-09-28"
   },
   "孫子兵法sunzibingfa": {
-    "src": "covers/4edcc84ce1cbead4.png",
-    "imageUrl": "https://asset.kitapsepeti.com/savas-sanati-573605-1025694-57-O.png",
-    "sourceUrl": "https://www.kitapsepeti.com/savas-sanati-573605",
+    "src": "covers/8b8a4b985623a544.png",
+    "imageUrl": "https://asset.kitapsepeti.com/savas-sanati-103813-197574-10-O.png",
+    "sourceUrl": "https://www.kitapsepeti.com/savas-sanati-103813",
     "sourceName": "Kitapsepeti",
     "title": "Savaş Sanatı",
-    "author": "Sun Tzu",
-    "publisher": "Güneş Kitabevleri Yayınları",
-    "isbn": "9786258967043",
+    "author": "Sun Tzu (Sun Zi)",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9786053322696",
     "language": "tr",
-    "checkedAt": "2026-09-28"
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
   },
   "vomkriege": {
     "src": "covers/c99a6d280b419109.jpg",
@@ -420,16 +421,17 @@
     "checkedAt": "2026-09-28"
   },
   "преступлениеинаказание": {
-    "src": "covers/562ed661fec54911.jpg",
-    "imageUrl": "https://asset.kitapsepeti.com/suc-ve-ceza-579636-1043066-57-O.jpg",
-    "sourceUrl": "https://www.kitapsepeti.com/suc-ve-ceza-579636",
+    "src": "covers/30e95fc18f40f143.png",
+    "imageUrl": "https://asset.kitapsepeti.com/suc-ve-ceza-37912-184803-37-O.png",
+    "sourceUrl": "https://www.kitapsepeti.com/suc-ve-ceza-37912",
     "sourceName": "Kitapsepeti",
     "title": "Suç ve Ceza",
     "author": "Fyodor Mihayloviç Dostoyevski",
-    "publisher": "Güneş Kitabevleri Yayınları",
-    "isbn": "9786258967760",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9789754589023",
     "language": "tr",
-    "checkedAt": "2026-09-28"
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
   },
   "братьякарамазовы": {
     "src": "covers/2ed865ee269b851e.png",
@@ -456,16 +458,17 @@
     "checkedAt": "2026-09-28"
   },
   "идиот": {
-    "src": "covers/3fcece1fc23ac715.jpg",
-    "imageUrl": "https://asset.kitapsepeti.com/budala-579727-1043176-57-O.jpg",
-    "sourceUrl": "https://www.kitapsepeti.com/budala-579727",
-    "sourceName": "Kitapsepeti",
+    "src": "covers/b5aaddc8ba1f8c2b.jpg",
+    "imageUrl": "https://iletisim.com.tr/Images/UserFiles/Images/Spot/budala.jpg",
+    "sourceUrl": "https://iletisim.com.tr/kitap/budala/9006",
+    "sourceName": "İletişim",
     "title": "Budala",
     "author": "Fyodor Mihayloviç Dostoyevski",
-    "publisher": "Güneş Kitabevleri Yayınları",
-    "isbn": "9786258967715",
+    "publisher": "İletişim",
+    "isbn": "9789750516849",
     "language": "tr",
-    "checkedAt": "2026-09-28"
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
   },
   "воинаимир": {
     "src": "covers/f9d7c33f2b2c73a1.png",
@@ -480,16 +483,17 @@
     "checkedAt": "2026-09-28"
   },
   "аннакаренина": {
-    "src": "covers/0e8cc25afe43484c.jpg",
-    "imageUrl": "https://asset.kitapsepeti.com/anna-karenina-77604-194991-77-O.jpg",
-    "sourceUrl": "https://www.kitapsepeti.com/anna-karenina-77604",
-    "sourceName": "Kitapsepeti",
+    "src": "covers/bee84438119fcf2f.jpg",
+    "imageUrl": "https://iletisim.com.tr/Images/UserFiles/Images/Spot/anna-karenina.jpg",
+    "sourceUrl": "https://iletisim.com.tr/kitap/anna-karenina/9070",
+    "sourceName": "İletişim",
     "title": "Anna Karenina",
     "author": "Lev Nikolayeviç Tolstoy",
-    "publisher": "Artemis Yayınları",
-    "isbn": "9786050058284",
+    "publisher": "İletişim",
+    "isbn": "9789750517457",
     "language": "tr",
-    "checkedAt": "2026-09-28"
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
   },
   "чемлюдиживы": {
     "src": "covers/a777d1b5eab7f2b6.jpg",
@@ -888,16 +892,17 @@
     "checkedAt": "2026-09-28"
   },
   "meditations": {
-    "src": "covers/c210c58df6542580.png",
+    "src": "covers/30b8ce7e4dc83252.png",
     "imageUrl": "https://asset.kitapsepeti.com/kendime-dusunceler-154613-183060-15-O.png",
     "sourceUrl": "https://www.kitapsepeti.com/kendime-dusunceler-154613",
     "sourceName": "Kitapsepeti",
     "title": "Kendime Düşünceler",
     "author": "Marcus Aurelius",
-    "publisher": "İş Bankası Kültür Yayınları",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
     "isbn": "9786052954027",
     "language": "tr",
-    "checkedAt": "2026-09-28"
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
   },
   "atomichabits": {
     "src": "covers/92d02404e4434b96.jpg",
@@ -1188,16 +1193,17 @@
     "checkedAt": "2026-09-28"
   },
   "смертьиванаильича": {
-    "src": "covers/0af54d1bb7557fe0.jpg",
-    "imageUrl": "https://asset.kitapsepeti.com/ivan-ilyicin-olumu-588913-1057645-58-O.jpg",
-    "sourceUrl": "https://www.kitapsepeti.com/ivan-ilyicin-olumu-588913",
+    "src": "covers/52692d22e98b1d57.png",
+    "imageUrl": "https://asset.kitapsepeti.com/ivan-ilyicin-olumu-204152-184701-20-O.png",
+    "sourceUrl": "https://www.kitapsepeti.com/ivan-ilyicin-olumu-204152",
     "sourceName": "Kitapsepeti",
     "title": "İvan İlyiç’in Ölümü",
-    "author": "Aleksey Nikolayeviç Tolstoy",
-    "publisher": "Elpida Yayıncılık",
-    "isbn": "9786259156705",
+    "author": "Lev Nikolayeviç Tolstoy",
+    "publisher": "Türkiye İş Bankası Kültür Yayınları",
+    "isbn": "9786053321170",
     "language": "tr",
-    "checkedAt": "2026-09-28"
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
   },
   "jacklondon": {
     "src": "covers/17a6028197424e47.jpg",
@@ -1356,6 +1362,45 @@
     "author": "Chip Heath",
     "publisher": "Sola Unitas",
     "isbn": "9786052250716",
+    "language": "tr",
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
+  },
+  "powerlaw": {
+    "src": "covers/33f1e5719c8b1a6b.jpg",
+    "imageUrl": "https://asset.kitapsepeti.com/guc-yasasi-1022964-57-O.jpg",
+    "sourceUrl": "https://www.kitapsepeti.com/guc-yasasi",
+    "sourceName": "Kitapsepeti",
+    "title": "Güç Yasası",
+    "author": "Sebastian Mallaby",
+    "publisher": "Scala",
+    "isbn": "9786255544414",
+    "language": "tr",
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
+  },
+  "manwhosolvedthemarket": {
+    "src": "covers/c5f1c6e47fbb4016.jpg",
+    "imageUrl": "https://asset.kitapsepeti.com/jim-simons-piyasalarin-sifresini-cozen-adam-835508-80-O.jpg",
+    "sourceUrl": "https://www.kitapsepeti.com/jim-simons-piyasalarin-sifresini-cozen-adam",
+    "sourceName": "Kitapsepeti",
+    "title": "Jim Simons: Piyasaların Şifresini Çözen Adam",
+    "author": "Gregory Zuckerman",
+    "publisher": "Scala",
+    "isbn": "9786257191043",
+    "language": "tr",
+    "checkedAt": "2026-09-28",
+    "matchMethod": "manual-source-review"
+  },
+  "personalmbamastertheartofbusiness": {
+    "src": "covers/cafe18254d103612.jpg",
+    "imageUrl": "https://asset.kitapsepeti.com/kendi-kendine-mba-374164-33-O.jpg",
+    "sourceUrl": "https://www.kitapsepeti.com/kendi-kendine-mba",
+    "sourceName": "Kitapsepeti",
+    "title": "Kendi Kendine MBA",
+    "author": "Josh Kaufman",
+    "publisher": "Pegasus",
+    "isbn": "9786053437598",
     "language": "tr",
     "checkedAt": "2026-09-28",
     "matchMethod": "manual-source-review"

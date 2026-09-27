@@ -36,10 +36,11 @@ def author_match(a,b):
  tb={norm(t) for t in re.split(r'[\s,.()&]+',b) if len(norm(t))>3}
  return bool(ta & tb) or norm(a) in norm(b) or norm(b) in norm(a)
 def fetch(b):
+ expected=b.get('verifiedEdition',{}).get('isbn') if b.get('verifiedEdition',{}).get('sourceType')=='publisher' else None
  if manifest.get(b['id'],{}).get('matchMethod')=='manual-source-review':return b['id'],manifest[b['id']]
- if b['id'] in manifest and max(score(t,manifest[b['id']]['title']) for t in [b['titleTr'] or b['title'],*b['aliases']])>=.83:return b['id'],manifest[b['id']]
+ if b['id'] in manifest and (not expected or manifest[b['id']]['isbn']==expected) and max(score(t,manifest[b['id']]['title']) for t in [b['titleTr'] or b['title'],*b['aliases']])>=.83:return b['id'],manifest[b['id']]
  manifest.pop(b['id'],None)
- query=clean(b['titleTr'] or b['title'])
+ query=expected or clean(b['titleTr'] or b['title'])
  try:
   soup=BeautifulSoup(get(BASE+'/arama?q='+quote(query)),'html.parser')
   surname=re.split(r'[,;&]| and | ve ',b['author'])[0].split('(')[0].strip().split(' ')[-1]
@@ -70,6 +71,7 @@ def fetch(b):
    if not author_match(b['author'],pauthor) or max(score(t,ptitle) for t in titles)<.83:continue
    image=product.get('image',[]);image=image[0] if isinstance(image,list) and image else image
    isbn=product.get('isbn','')
+   if expected and isbn!=expected:continue
    if not image or not isbn or not image.startswith('https://asset.kitapsepeti.com/'):continue
    # Series/adaptations need manual edition selection, not a generic same-title match.
    if re.search(r'uyarlama|serisi|\(seri\)|graphic novel|complete musashi|way of the warrior',b['title'],re.I):continue
